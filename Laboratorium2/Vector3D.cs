@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Laboratorium2
 {
@@ -59,10 +55,6 @@ namespace Laboratorium2
             if (cmp == 0) return this.y.CompareTo(t_obj.y);
             return cmp;
         }
-
-        /**
-            Przeciążanie operatorów
-        **/
 
         public static Vector3D operator +(Vector3D l, Vector3D r)
         {

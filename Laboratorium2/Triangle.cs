@@ -8,9 +8,9 @@ namespace Laboratorium2
 {
     public class Triangle : Shape
     {
-        Vector2D a;
-        Vector2D b;
-        Vector2D c;
+        public Vector2D a { get; private set; }
+        public Vector2D b { get; private set; }
+        public Vector2D c { get; private set; }
 
         public Triangle(Vector2D a, Vector2D b, Vector2D c)
         {

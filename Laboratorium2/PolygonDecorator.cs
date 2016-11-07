@@ -8,7 +8,7 @@ namespace Laboratorium2
 {
     public abstract class PolygonDecorator : Shape
     {
-        protected Shape triangle;
-        public Vector2D[] Vertices;
+        protected Triangle triangle;
+        public List<Vector2D> Vertices;
     }
 }

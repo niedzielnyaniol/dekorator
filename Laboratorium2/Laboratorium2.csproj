@@ -46,6 +46,7 @@
     <Compile Include="Circle.cs" />
     <Compile Include="IDrawable.cs" />
     <Compile Include="IScalable.cs" />
+    <Compile Include="IVector.cs" />
     <Compile Include="Polygon.cs" />
     <Compile Include="PolygonDecorator.cs" />
     <Compile Include="Program.cs" />
@@ -54,9 +55,11 @@
     <Compile Include="ShapeGenerator.cs" />
     <Compile Include="ShapePrinter.cs" />
     <Compile Include="Sphere.cs" />
+    <Compile Include="SquareAdapter.cs" />
     <Compile Include="Triangle.cs" />
     <Compile Include="Vector2D.cs" />
     <Compile Include="Vector3D.cs" />
+    <Compile Include="Vector3D_Decorator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
